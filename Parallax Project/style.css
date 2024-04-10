@@ -1,0 +1,54 @@
+html,body{
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8m;
+    color: #666;
+}
+.virat-1{
+    background-image: url(images/v3.jpeg);
+    min-height: 100%;
+}
+.virat-2{
+    background-image: url(images/virat-2.jpg);
+    min-height: 400px;
+}
+.virat-3{
+    background-image: url(images/virat-1.jpg);
+    min-height: 400px;
+}
+.virat-1,.virat-2,.virat-3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.v-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: #666;
+    padding: 20px;
+}
+.text{
+    padding: 50px 40px;
+    text-align: center;
+}
+.textlight{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.textdark{
+    background-color: #666;
+    color: white;
+}
